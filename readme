@@ -1,0 +1,27 @@
+Thanks for downloading RubyCP
+##############################
+##       Instructions       ##
+##############################
+
+	1) Install Ruby
+		- Linux:
+			sudo apt-get install ruby1.8 ruby1.8-dev irb rdoc ri
+			sudo apt-get install libmysql-ruby
+			sudo gem install mysql2 # This may be optional.
+
+	2) In the /install directory, use the sql file to setup your database & table
+	3) In the /configure directory, edit the configuration file to fit your needs
+	4) Run the login and or game server in the /servers directory.
+		- ruby file.rb
+	
+Notes:
+	'activated' field in the users table should always be '1' in order to login.
+	Make sure that if you aren't using the default table structure, that you modify the keys in the client and cpserver classes in order to get correct fields from the database.
+	This source does not support the serialized crumbs in iCP.
+	This source does not support any other table structure, unless correctly configured to do so.
+	
+Made by Damen from Rile5.com
+- sauron on web.i.r.cx and forums.i.r.cx
+
+Report any issues to me on ircx, cppsnexus.com,or Rile5.com.
+Names: sauron, damen, tent(dontcallmethatplz)
